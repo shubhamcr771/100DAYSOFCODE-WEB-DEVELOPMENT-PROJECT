@@ -4,28 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIT MADRAS</title>
-    <h1 style="text-align: center; background-color: darkgreen; color: aquamarine;">IIT MADRAS UNOFFICIAL SUPPORT</h1>
+    <title>IIT-MADRAS</title>
     <style>
-        a:link {
-            color: brown;
+        * {
+          box-sizing: border-box;
         }
-        a:hover {
-            color: rgb(202, 22, 22);
-            background-color: aquamarine;
-
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
         }
-        a:visited {
-            color: black;
-            box-shadow: 0cap;
-
+        
+        /* Style the header */
+        header {
+          background-color: burlywood;
+          padding: 10px;
+          text-align: center;
+          font-size: 15px;
+          color: white;
         }
-    </style>
-    <a href="http://www.iitmadras.com" style="font-size: larger;" target="_blank" rel="noopener noreferrer">IIT MADRAS OFFICIAL WEBSITE</a>
-    <img src="IMAGES\th.jfif" style="border-top-right-radius: 0%; position: relative;" alt="IIT MADRAS LOGO">
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          height: 1200px; /* only for demonstration, should be removed */
+          background: #ccc;
+          padding: 20px;
+          background-color: rgb(113, 239, 140);
+          
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+          font-size: xx-large;
+          
+        
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #f1f1f1;
+          height: 1200px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #cfd6b1;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        #head {
+            background-color:rgb(238, 238, 71);
+            font-size: xx-large;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgba(14, 236, 29, 0.753);
+        }
+        a:hover{
+            background-color: rgb(109, 152, 142);
+        }
+        </style>
+        
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae minus temporibus qui mollitia id alias similique cupiditate, repudiandae fugiat nulla, omnis maiores possimus sapiente repellendus voluptatibus. Aliquid, natus suscipit.</p>
-    
+    <h1 id="head">IIT-MADRAS ONLINE DEGREE UNOFFICIAL STUDENT SUPPORT</h1>
+    <p>IIT Madras, India's top technical institute, welcomes you to the world's first 4-year Bachelor of Science (BS) Degree in Data Science and Applications with options to exit earlier in the foundation, diploma or BSc degree level.</p>
+    <p>There are four levels in the IIT Madras Degree program and to get the BS Degree in Data Science and Applications from IIT Madras, a learner has to successfully complete all four levels.
+
+        There is also the flexibility to exit at any level. Depending on the courses completed and credits earned, the learner can receive a Foundation Certificate from IITM CODE (Centre for Outreach and Digital Education) or Diploma(s) from IIT Madras or BSc Degree in Programming and Data Science from IIT Madras or BS Degree in Data Science and Applications from IIT Madras.</p>
+        <header>
+            <h1>OVERALL STRUCTURE</h1>
+        </header>
+        <section>
+            <nav>
+                <ul style="list-style-type: square;">
+                    <li><a href="https://study.iitm.ac.in/ds/academics.html#AC11" target="_blank">Foundation Level</a></li>
+                    <li><a href="https://study.iitm.ac.in/ds/academics.html#AC12" target="_blank">Diploma Level</a></li>
+                    <li><a href="https://study.iitm.ac.in/ds/academics.html#AC15" target="_blank">Bsc Degree Level</a></li>
+                    <li><a href="https://study.iitm.ac.in/ds/academics.html#AC16" target="_blank">Bs Degree</a></li>
+                </ul>
+                <form autocomplete="on">
+                  <strong><label for="fname">FULL NAME</label></strong><br>
+                  <input type="text" id="form" name="fname"><br>
+                  <strong><label for="age">AGE</label></strong><br>
+                  <input type="number" id="formd" name="age"><br><br>
+                  <strong>GENDER</strong><br>
+                  <input type="radio" id="sex" name="sex">
+                  <label for="sex">MALE</label><br>
+                  <input type="radio" id="sex" name="sex">
+                  <label for="sex">FEMALE</label><br>
+                  <input type="radio" id="sex" name="sex">
+                  <label for="sex">OTHER</label><br><br>
+                  <strong>FAVORATE LANGUAGE</strong><br>
+                  <input type="checkbox" name="fav language" id="lang">
+                  <label for="fav language">Python</label><br>
+                  <input type="checkbox" id="lang" name="fav language">
+                  <label for="fav language">C++</label><br>
+                  <input type="checkbox" id="lang" name="fav language">
+                  <label for="checkbox">JAVA</label><br>
+                  <strong><input type="submit" value="SUBMIT"></strong>
+                  
+
+                </form>
+            </nav>
+            <article>
+                <h2 >Foundation Level</h2>
+                <p>The Foundation Level comprises courses in Mathematics, Statistics, Basics of Programming and Python, and English. These courses have been chosen to ensure that the learner who passes these successfully is well prepared to proceed to the Diploma Level courses.</p>
+                <ul>
+                    <li>Math1</li>
+                    <li>CT</li>
+                    <li>Stats1</li>
+                    <li>English1</li>
+                    <li>Maths1</li>
+                    <li>Stats2</li>
+                    <li>Python</li>
+                    <li>English2</li>
+                </ul>
+                <h2 class="section">Diploma Level</h2>
+                <p>There are two sections in the Diploma Level with courses for Diploma in Programming and courses for Diploma in Data Science. Each of these diplomas comprises 5 core courses, 2 projects and 1 skill enhancement course.</p>
+                <ul>
+                    <li>Database Management Systems</li>
+                    <li>DSA Python</li>
+                    <li>App Development</li>
+                    <li>App Development Project</li>
+                    <li>Java Programming</li>
+                    <li>App Development 2</li>
+                    <li>App Development2 Project</li>
+                    <li>System Commands</li>
+                </ul>
+                <h2 class="section">Bsc Degree Level</h2>
+                <p>The learner should have cleared all 8 courses in Foundation Level and all 12 courses + 4 projects in Diploma Level.</p>
+                <ul>
+                    <li>Software Testing</li>
+                    <li>Software Engineering</li>
+                    <li>Deep learning</li>
+                    <li>Machine learning</li>
+                </ul>
+                <h2 class="section">BS Degree Level</h2>
+                <p>Students will be provided internships and job opportunities. </p>
+                <ul>
+                <li>Projects</li>
+                <li>Projects</li>
+                <li>Projects</li>
+                <li>Projects</li>
+                </ul>
+            </article>
+            
+        </section>
+  
+        
+        
 </body>
 </html>
