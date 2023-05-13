@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 30%;
+    height: 1200px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+    background-color: rgb(113, 239, 140);
+    
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: xx-large;
+    
+    
+  
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 1200px; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #cfd6b1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  #head {
+      background-color:rgb(23, 13, 218);
+      font-size: xx-large;
+      font-family: 'Courier New', Courier, monospace;
+      color: rgba(6, 212, 54, 0.995);
+      text-shadow: 2px 2px;
+      }
+  a:hover{
+      background-color: rgba(245, 245, 249, 0.97);
+
+  }
+  

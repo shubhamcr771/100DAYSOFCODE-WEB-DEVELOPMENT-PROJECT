@@ -5,87 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IIT-MADRAS</title>
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        /* Style the header */
-        header {
-          background-color: burlywood;
-          padding: 10px;
-          text-align: center;
-          font-size: 15px;
-          color: white;
-        }
-        
-        /* Create two columns/boxes that floats next to each other */
-        nav {
-          float: left;
-          width: 30%;
-          height: 1200px; /* only for demonstration, should be removed */
-          background: #ccc;
-          padding: 20px;
-          background-color: rgb(113, 239, 140);
-          
-        }
-        
-        /* Style the list inside the menu */
-        nav ul {
-          list-style-type: none;
-          padding: 0;
-          font-size: xx-large;
-          
-        
-        }
-        
-        article {
-          float: left;
-          padding: 20px;
-          width: 70%;
-          background-color: #f1f1f1;
-          height: 1200px; /* only for demonstration, should be removed */
-        }
-        
-        /* Clear floats after the columns */
-        section::after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        
-        /* Style the footer */
-        footer {
-          background-color: #cfd6b1;
-          text-align: center;
-          color: white;
-        }
-        
-        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-        @media (max-width: 600px) {
-          nav, article {
-            width: 100%;
-            height: auto;
-          }
-        }
-        #head {
-            background-color:rgb(238, 238, 71);
-            font-size: xx-large;
-            font-family: 'Courier New', Courier, monospace;
-            color: rgba(14, 236, 29, 0.753);
-        }
-        a:hover{
-            background-color: rgb(109, 152, 142);
-        }
-        </style>
+    <link rel="stylesheet" href="style.css">
         
 </head>
 <body>
-    <h1 id="head">IIT-MADRAS ONLINE DEGREE UNOFFICIAL STUDENT SUPPORT</h1>
+    <h1 id="head">100DAYS WEB-DEVELOPMENT PROJECT</h1>
     <p>IIT Madras, India's top technical institute, welcomes you to the world's first 4-year Bachelor of Science (BS) Degree in Data Science and Applications with options to exit earlier in the foundation, diploma or BSc degree level.</p>
     <p>There are four levels in the IIT Madras Degree program and to get the BS Degree in Data Science and Applications from IIT Madras, a learner has to successfully complete all four levels.
 
@@ -119,10 +43,30 @@
                   <input type="checkbox" id="lang" name="fav language">
                   <label for="fav language">C++</label><br>
                   <input type="checkbox" id="lang" name="fav language">
-                  <label for="checkbox">JAVA</label><br>
-                  <strong><input type="submit" value="SUBMIT"></strong>
-                  
+                  <label for="checkbox">JAVA</label><br><br>
 
+                  <strong><label for="birthday time">DOB(date and time):</label></strong>
+                  <input type="datetime-local" id="bithday" name="birthday time"><br><br>
+
+                  <strong><label for="email">Enter Email Here</label></strong>
+                  <input type="email" id="email" name="email"><br><br>
+
+                  <strong><label for="file">Choose The File</label></strong>
+                  <input type="file" id="myfile" name="myfile"><br><br>
+
+                  <strong><label for="quantity">Years of Experience</label></strong>
+                  <input type="number" id="quantity" min="0" max="10"><br><br>
+                  
+                  <strong><label for="city">Choose a city</label></strong>
+                  <select name="city" id="car">
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Ranchi">Ranchi</option>
+                    <option value="Gaya">Gaya</option>
+                  </select><br><br>
+                  <strong><input type="submit" value="SUBMIT"></strong><br>
                 </form>
             </nav>
             <article>
@@ -166,7 +110,9 @@
                 <li>Projects</li>
                 <li>Projects</li>
                 </ul>
+                
             </article>
+            
             
         </section>
   
