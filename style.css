@@ -29,11 +29,32 @@
   }
   
   /* Style the list inside the menu */
-  nav ul.a {
-    list-style-type: none;
-    padding: 0;
-    font-size: xx-large;
+  ul.a {
     
+      list-style-type: none;
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 0;
+      width: 500px;
+      background-color: rgb(135, 202, 220);
+      font-size: 25px;
+      text-decoration: none;
+      
+    
+  }
+  ul.a li a {
+    display: block;
+    color: #000;
+    padding: 12px 24px;
+    text-decoration: none;
+  }
+  ul.a li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  li#active{
+    background-color: #04AA6D;
+    color: black;
   }
   
   
@@ -78,8 +99,9 @@
       text-align: center;
       line-height: 100px;
       
+      }
       
-       }
+
   a:hover{
       background-color: rgba(143, 143, 244, 0.97);
 
@@ -101,7 +123,7 @@
     height: 200px;
     border-collapse: collapse;
     margin-right: 80%;
-    border-bottom: 4px solid #ddd;
+    border-bottom: 4px solid #ddd;{}
     }
     th {
       height: 70px;
@@ -114,5 +136,9 @@
 
     }
     tr:nth-child(even)  {background-color: #f2f2f2;}
+    ::selection{
+      color: red;
+      background-color: aquamarine;
+    }
   
   
