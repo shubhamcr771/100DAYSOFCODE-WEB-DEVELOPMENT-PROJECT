@@ -39,6 +39,8 @@
       background-color: rgb(135, 202, 220);
       font-size: 25px;
       text-decoration: none;
+      border: 1px solid #555;
+      
       
     
   }
@@ -47,6 +49,10 @@
     color: #000;
     padding: 12px 24px;
     text-decoration: none;
+    border-bottom: 1px solid #555;
+  }
+  ul.a li a :last-child {
+    border-bottom: none;
   }
   ul.a li a:hover {
     background-color: #555;
