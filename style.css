@@ -116,31 +116,42 @@
   input[type="text"] {
     background-color: #ccc;
     border: 1px solid #ccc;
-    width: 180px;
+    width: 200px;
     height: 30px;
+    /* width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out; */
   }
   input[type="submit"] {
     background-color: #ccc;
     border: 1px solid #ccc;
-    width: 180px;
+    width: 200px;
     height: 30px;
   }
   input[type="radio"] {
     background-color: #ccc;
     border: 1px solid #ccc;
-    width: 180px;
+    width: 200px;
     height: 30px;
   }
   input[type="number"] {
     background-color: #ccc;
     border: 1px solid #ccc;
-    width: 180px;
+    width: 200px;
     height: 30px;
   }
   input[type="checkbox"] {
     background-color: #ccc;
     border: 1px solid #ccc;
-    width: 180px;
+    width: 200px;
     height: 30px;
   }
   table, th {
@@ -154,6 +165,9 @@
       font-size: large;
       border-bottom: 4px solid #ddd;
       
+    }
+    input[type="submit"]:hover {
+      cursor: pointer;
     }
   table {
     width: 100%;
